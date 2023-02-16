@@ -1,0 +1,192 @@
+/*
+ 
+  English.strings
+  Pock
+
+  Created by Pierluigi Galdi on 12/03/21.
+  
+*/
+
+// MARK: Base
+"base.website_url" = "https://pock.app";
+"base.widget" = "widget";
+
+// MARK: General
+"general.welcome-to-pock" = "欢迎使用 Pock";
+"general.pock-widgets-manager" = "Widgets manager for MacBook's Touch Bar";
+
+// MARK: MainBarMenu
+// General
+"menu.general" = "通用";
+"menu.about" = "关于 Pock";
+"menu.preferences" = "设置…";
+// Widgets
+"menu.widgets" = "组件";
+"menu.widgets.manage-widgets" = "管理组件…";
+"menu.widgets.install-widget" = "安装组件…";
+// Customisation
+"menu.customization" = "自定义";
+"menu.customization.pock" = "定制 Pock…";
+"menu.customization.control-strip" = "自定义控制条…";
+// Advanced
+"menu.advanced" = "高级";
+"menu.advanced.re-install-default-widgets" = "重新安装默认组件…";
+"menu.advanced.open-widgets-folder" = "打开组件目录…";
+"menu.advanced.reload_pock" = "重新加载 Pock…";
+"menu.advanced.relaunch_pock" = "重新启动 Pock…";
+"menu.advanced.reload_touchbar" = "重新加载控制条…";
+"menu.advanced.relaunch_touchbar" = "重新加载 Touch Bar…";
+"menu.developers" = "开发者";
+"menu.advanced.show_debug_console" = "打开调试控制台…";
+// Quit
+"menu.goodbye" = "Goodbye";
+"menu.quit" = "退出 Pock";
+
+// MARK: Onboard Screen
+"onboard.title" = "Get the Most Out of Your MacBook Pro Touch Bar";
+"onboard.body" = "Pock comes with default widgets that let you access the most essential information and functionality of your frequently used controls and services.";
+"onboard.footer" = "Follow the instructions in the Touch Bar to install default widgets";
+"onboard.open-preferences" = "Open Preferences…";
+"onboard.continue-with-default-settings" = "使用默认设置继续";
+
+// MARK: Preferences
+"preferences.window.title" = "设置";
+
+"preferences.general.title" = "通用";
+"preferences.general.allow-blank-touchbar.title" = "Allow blank Touch Bar";
+"preferences.general.allow-blank-touchbar.desc" = "If enabled, you can turn the Touch Bar completely off just by removing any added widgets.";
+"preferences.general.launch-at-login" = "登录时启动";
+
+"preferences.layout.title" = "布局";
+
+"preferences.double-control.title" = "Switch to default Touch Bar";
+"preferences.double-control.desc" = "双击`^Control`切换Pock和默认的Touch Bar";
+"preferences.default-touchbar.shows" = "Default Touch Bar shows:";
+"preferences.default-touchbar.desc" = "To work properly, Pock may override the default Touch Bar preferences.
+You can always configure default settings from `System Preferences > Keyboard` to adapt the Touch Bar to your needs.";
+
+"preferences.cursor-options.title" = "光标选项";
+"preferences.cursor-options.enable-mouse-support" = "启用鼠标支持";
+"preferences.cursor-options.show-tracking-area" = "Show tracking area";
+
+"preferences.updates.check-for-updates-once-a-day" = "第天检查更新";
+
+"preferences.updates.already-on-latest-version.title" = "已安装版本: %@";
+"preferences.updates.already-on-latest-version.message" = "Pock 已是最新版本。";
+"preferences.updates.new-version-available.title" = "有新版本可用";
+"preferences.updates.new-version-available.message" = "Would you like to update Pock from version %@ to version %@?";
+
+// MARK: Layout Style
+"layout-style.show-control-strip" = "显示控制条";
+"layout-style.full-width" = "全宽";
+
+// MARK: Presentation Mode
+"presentation-mode.app" = "App";
+"presentation-mode.app-with-control-strip" = "App with Control Strip";
+"presentation-mode.full-control-strip" = "Full Control Strip";
+"presentation-mode.function-keys" = "Function Keys (Fn)";
+"presentation-mode.workflows" = "Workflows";
+"presentation-mode.workflows-with-control-strip" = "Workflow with Control Strip";
+"presentation-mode.spaces" = "Spaces";
+"presentation-mode.spaces-with-control-strip" = "Spaces with Control Strip";
+
+// MARK: Widgets Manager
+"widgets-manager.list.title" = "组件管理器";
+"widgets-manager.list.select-widget" = "从列表中选择一个组件";
+"widgets-manager.list.will-be-updated" = "\"%@\" widget will be updated";
+"widgets-manager.list.did-update" = "\"%@\" widget updated.\nReload Pock to refresh.";
+"widgets-manager.loading-preferences" = "设置加载中…";
+"widgets-manager.list.no-preferences" = "该组件没有设置项";
+"widgets-manager.list.reset-preferences" = "恢复默认设置";
+
+// MARK: Empty Touch Bar
+"widgets.defaults.tap-to-install" = "Tap to install default widgets…";
+"widgets.empty.add-widgets-to-pock" = "Tap to add widgets to Pock…";
+
+// MARK: Widget Install/Update
+
+"widget.install.default.title" = "安装默认组件";
+"widget.install.default.body" = "确定要安装默认组件吗?";
+
+"widget.installing.default.body" = "进度: %d/%d";
+"widget.installed.default.success.body" = "Default widgets was installed successfully!\nClick on `Relaunch` to relaunch Pock and enjoy your shiny-new Touch Bar!";
+
+"widget.install.drag-here.title" = "安装新组件";
+"widget.install.drag-here.body" = "Drag & Drop widget file inside this dialog, or click the `Choose…` button to pick up the file.";
+"widget.install.drag-here.valid-formats" = "Accepted formats: .pock, .pkarchive";
+
+"widget.remove.title" = "Remove %@ widget";
+"widget.remove.body" = "Would you like to proceed and remove %@ widget?";
+"widget.remove.click-to-continue" = "Click \"Remove\" to continue…";
+
+"widget.install.title" = "Install %@ widget";
+"widget.install.body" = "Would you like to proceed and install %@ widget?";
+"widget.install.click-to-continue" = "Click \"Install\" to continue…";
+
+"widget.update.title" = "New version available for %@ widget!";
+"widget.update.body" = "Would you like to upgrade from version %@ to the new version %@?";
+"widget.update.changelog.title" = "Changelog:";
+
+"widget.removing.title" = "Removing %@ widget…";
+"widget.removing.body" = "This process can take some time…";
+
+"widget.installing.title" = "Installing %@ widget…";
+"widget.installing.body" = "This process can take some time…";
+
+"widget.downloading.title" = "Downloading %@ widget…";
+"widget.downloading.body" = "This process can take some time…\n\nCalculating estimated progress:";
+
+"widget.remove.error.title" = "Widget removing has failed!";
+"widget.install.error.title" = "Widget installation has failed!";
+
+"widget.error.title" = "Something went wrong…";
+"widget.error.body" = "An error occured during the process.\n\n%@";
+
+"widget.remove.success.title" = "Widget successfully removed!";
+"widget.remove.success.body" = "Great, %@ widget was completely removed.\nClick on `Relaunch` to relaunch Pock.";
+
+"widget.install.success.title" = "What a success!";
+"widget.install.success.body" = "Congratulations, %@ widget is now ready to be added to the Touch Bar.\nReload Pock and then click on `Customize Pock…` option to personalize your widgets experience.";
+
+"widget.update.success.title" = "Done!";
+"widget.update.success.body" = "Congratulations, %@ widget is now updated to the latest version.\nClick on `Relaunch` to relaunch Pock.";
+
+// MARK: Actions
+"general.action.cancel" = "取消";
+"general.action.start" = "开始";
+"general.action.choose" = "选择…";
+"general.action.remove" = "移除";
+"general.action.removing" = "移除中…";
+"general.action.install" = "安装";
+"general.action.installing" = "安装中…";
+"general.action.later" = "Maybe later";
+"general.action.update" = "更新";
+"general.action.downloading" = "下载中…";
+"general.action.check-for-updates" = "检查更新";
+"general.action.checking" = "正在检查…";
+"general.action.close" = "关闭";
+"general.action.reload" = "重新加载";
+"general.action.relaunch" = "重新启动";
+"general.action.customize" = "个性化";
+
+// MARK: Errors
+"error.unknown" = "Unknown error occured.";
+"error.cant-copy" = "File can't be copied to destination folder.\n%@";
+"error.cant-remove" = "Widget file can't be removed.\n%@";
+"error.unknown-server-error" = "Unknown";
+
+"error.updater.invalid-endpoint-url" = "Invalid URL.";
+"error.updater.response-error" = "Invalid response from the server: %@";
+"error.updater.parsing-error" = "Invalid response data.";
+"error.updater.invalid-core-version" = "A new version for this widget is available, but your version of Pock is not supported. Please, update to the minimum supported version (%@) to install this widget's version.";
+
+"error.downloader.invalid-file-url" = "Can't find requested file on remote server.";
+"error.downloader.response-error" = "Can't request file. Server response: %@";
+"error.downloader.download-error" = "Can't download requested file: %@";
+"error.file-system-error" = "Can't manage file: %@\n\nPlease, check app permission and try again.";
+
+// MARK: Debug console
+"debug.console.floating-window" = "Floating window";
+"debug.console.show-on-launch" = "启动时显示";
+"debug.console.scroll-automatically" = "自动滚动";
+"debug.console.clear-console" = "清空控制台";
