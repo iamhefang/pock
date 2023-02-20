@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3400F92D264EBBC8003B2B4C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3400F92C264EBBC8003B2B4C /* Media.xcassets */; };
-		340D5BA326861A67001D73F8 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 340D5BA226861A67001D73F8 /* Secrets.plist */; };
 		340D5BA92687038C001D73F8 /* DebugConsoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340D5BA72687038C001D73F8 /* DebugConsoleViewController.swift */; };
 		340D5BAA2687038C001D73F8 /* DebugConsoleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 340D5BA82687038C001D73F8 /* DebugConsoleViewController.xib */; };
 		340D5BAF2687A474001D73F8 /* NSFilterTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340D5BAE2687A474001D73F8 /* NSFilterTextField.swift */; };
@@ -114,7 +113,6 @@
 
 /* Begin PBXFileReference section */
 		3400F92C264EBBC8003B2B4C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		340D5BA226861A67001D73F8 /* Secrets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 		340D5BA72687038C001D73F8 /* DebugConsoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugConsoleViewController.swift; sourceTree = "<group>"; };
 		340D5BA82687038C001D73F8 /* DebugConsoleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DebugConsoleViewController.xib; sourceTree = "<group>"; };
 		340D5BAE2687A474001D73F8 /* NSFilterTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSFilterTextField.swift; sourceTree = "<group>"; };
@@ -190,6 +188,8 @@
 		34E7B989263C65590072FE54 /* WidgetsManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsManagerViewController.swift; sourceTree = "<group>"; };
 		34E7B98A263C65590072FE54 /* WidgetsManagerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WidgetsManagerViewController.xib; sourceTree = "<group>"; };
 		42458EF7CBD8C1A887586801 /* Pods-Pock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pock.release.xcconfig"; path = "Target Support Files/Pods-Pock/Pods-Pock.release.xcconfig"; sourceTree = "<group>"; };
+		4F137C6A299CE71100B16B3D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/PreviewViewController.strings"; sourceTree = "<group>"; };
+		4F137C6B299CE71100B16B3D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localisations.strings"; sourceTree = "<group>"; };
 		7AE9B256A4CB4701408B60C0 /* Pods_Pock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FAB0C2306CA63DF211D8910 /* Pods-Pock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pock.debug.xcconfig"; path = "Target Support Files/Pods-Pock/Pods-Pock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -453,7 +453,6 @@
 			children = (
 				34564DBD25F81E590093E5E0 /* Assets.xcassets */,
 				34564DC225F81E590093E5E0 /* Info.plist */,
-				340D5BA226861A67001D73F8 /* Secrets.plist */,
 				34564DC325F81E590093E5E0 /* Pock.entitlements */,
 			);
 			path = Bundle;
@@ -731,6 +730,7 @@
 				Base,
 				de,
 				"pt-PT",
+				"zh-Hans",
 			);
 			mainGroup = 34564DAF25F81E520093E5E0;
 			productRefGroup = 34564DB925F81E520093E5E0 /* Products */;
@@ -751,7 +751,6 @@
 			files = (
 				344C9A1E260674E5009AA07C /* Relaunch in Resources */,
 				34291B69263EDF9800768B08 /* PreferencesViewController.xib in Resources */,
-				340D5BA326861A67001D73F8 /* Secrets.plist in Resources */,
 				34564DBE25F81E590093E5E0 /* Assets.xcassets in Resources */,
 				34564DD925F826340093E5E0 /* NSMenuItemCustomView.xib in Resources */,
 				34A1A4AD25FBDAA20086500F /* Localisations.strings in Resources */,
@@ -943,6 +942,7 @@
 				34A1A4B025FBDAA60086500F /* it */,
 				3469C30926B2B245005D3A3D /* de */,
 				3469C30A26B2B252005D3A3D /* pt-PT */,
+				4F137C6B299CE71100B16B3D /* zh-Hans */,
 			);
 			name = Localisations.strings;
 			sourceTree = "<group>";
@@ -951,6 +951,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				34E78F55264EB0FD001CBA4E /* Base */,
+				4F137C6A299CE71100B16B3D /* zh-Hans */,
 			);
 			name = PreviewViewController.xib;
 			sourceTree = "<group>";
@@ -962,9 +963,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Relaunch/Relaunch.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 788D9WZ9Z3;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M68E3MU822;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pigigaldi.pock.relaunch;
@@ -979,9 +980,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Relaunch/Relaunch.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 788D9WZ9Z3;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M68E3MU822;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pigigaldi.pock.relaunch;
@@ -1116,11 +1117,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Pock/Bundle/Pock.entitlements;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 5;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = M68E3MU822;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Pock/Bundle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1150,11 +1152,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Pock/Bundle/Pock.entitlements;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 5;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = M68E3MU822;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Pock/Bundle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1179,10 +1182,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = QLPockWidget/QLPockWidget.entitlements;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = M68E3MU822;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = QLPockWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1203,10 +1206,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = QLPockWidget/QLPockWidget.entitlements;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = M68E3MU822;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = QLPockWidget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

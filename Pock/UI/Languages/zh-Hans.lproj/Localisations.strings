@@ -27,14 +27,14 @@
 // Customisation
 "menu.customization" = "自定义";
 "menu.customization.pock" = "定制 Pock…";
-"menu.customization.control-strip" = "自定义控制条…";
+"menu.customization.control-strip" = "自定义功能栏…";
 // Advanced
 "menu.advanced" = "高级";
 "menu.advanced.re-install-default-widgets" = "重新安装默认组件…";
 "menu.advanced.open-widgets-folder" = "打开组件目录…";
 "menu.advanced.reload_pock" = "重新加载 Pock…";
 "menu.advanced.relaunch_pock" = "重新启动 Pock…";
-"menu.advanced.reload_touchbar" = "重新加载控制条…";
+"menu.advanced.reload_touchbar" = "重新加载功能栏…";
 "menu.advanced.relaunch_touchbar" = "重新加载 Touch Bar…";
 "menu.developers" = "开发者";
 "menu.advanced.show_debug_console" = "打开调试控制台…";
@@ -53,23 +53,23 @@
 "preferences.window.title" = "设置";
 
 "preferences.general.title" = "通用";
-"preferences.general.allow-blank-touchbar.title" = "Allow blank Touch Bar";
-"preferences.general.allow-blank-touchbar.desc" = "If enabled, you can turn the Touch Bar completely off just by removing any added widgets.";
+"preferences.general.allow-blank-touchbar.title" = "允许空白触控栏";
+"preferences.general.allow-blank-touchbar.desc" = "如果启用, 你可以通过移除所有组件来关闭触控栏";
 "preferences.general.launch-at-login" = "登录时启动";
 
 "preferences.layout.title" = "布局";
 
-"preferences.double-control.title" = "Switch to default Touch Bar";
-"preferences.double-control.desc" = "双击`^Control`切换Pock和默认的Touch Bar";
-"preferences.default-touchbar.shows" = "Default Touch Bar shows:";
-"preferences.default-touchbar.desc" = "To work properly, Pock may override the default Touch Bar preferences.
-You can always configure default settings from `System Preferences > Keyboard` to adapt the Touch Bar to your needs.";
+"preferences.double-control.title" = "切换到默认触控栏";
+"preferences.double-control.desc" = "双击`^Control`切换Pock和默认的触控栏";
+"preferences.default-touchbar.shows" = "默认触控栏显示:";
+"preferences.default-touchbar.desc" = "为了正常工作，Pock 可能会覆盖默认的触控栏首选项。
+您始终可以从“系统偏好设置 > 键盘”配置默认设置，以使触控栏适应您的需要。";
 
 "preferences.cursor-options.title" = "光标选项";
 "preferences.cursor-options.enable-mouse-support" = "启用鼠标支持";
-"preferences.cursor-options.show-tracking-area" = "Show tracking area";
+"preferences.cursor-options.show-tracking-area" = "显示跟踪区域";
 
-"preferences.updates.check-for-updates-once-a-day" = "第天检查更新";
+"preferences.updates.check-for-updates-once-a-day" = "每天检查更新";
 
 "preferences.updates.already-on-latest-version.title" = "已安装版本: %@";
 "preferences.updates.already-on-latest-version.message" = "Pock 已是最新版本。";
@@ -77,18 +77,18 @@ You can always configure default settings from `System Preferences > Keyboard` t
 "preferences.updates.new-version-available.message" = "Would you like to update Pock from version %@ to version %@?";
 
 // MARK: Layout Style
-"layout-style.show-control-strip" = "显示控制条";
+"layout-style.show-control-strip" = "显示功能栏";
 "layout-style.full-width" = "全宽";
 
 // MARK: Presentation Mode
-"presentation-mode.app" = "App";
-"presentation-mode.app-with-control-strip" = "App with Control Strip";
-"presentation-mode.full-control-strip" = "Full Control Strip";
-"presentation-mode.function-keys" = "Function Keys (Fn)";
-"presentation-mode.workflows" = "Workflows";
-"presentation-mode.workflows-with-control-strip" = "Workflow with Control Strip";
-"presentation-mode.spaces" = "Spaces";
-"presentation-mode.spaces-with-control-strip" = "Spaces with Control Strip";
+"presentation-mode.app" = "应用";
+"presentation-mode.app-with-control-strip" = "应用和控制";
+"presentation-mode.full-control-strip" = "展开的功能栏";
+"presentation-mode.function-keys" = "功能键 (Fn)";
+"presentation-mode.workflows" = "工作流";
+"presentation-mode.workflows-with-control-strip" = "工作流和功能栏";
+"presentation-mode.spaces" = "空间";
+"presentation-mode.spaces-with-control-strip" = "空间和功能栏";
 
 // MARK: Widgets Manager
 "widgets-manager.list.title" = "组件管理器";
@@ -112,43 +112,43 @@ You can always configure default settings from `System Preferences > Keyboard` t
 "widget.installed.default.success.body" = "Default widgets was installed successfully!\nClick on `Relaunch` to relaunch Pock and enjoy your shiny-new Touch Bar!";
 
 "widget.install.drag-here.title" = "安装新组件";
-"widget.install.drag-here.body" = "Drag & Drop widget file inside this dialog, or click the `Choose…` button to pick up the file.";
-"widget.install.drag-here.valid-formats" = "Accepted formats: .pock, .pkarchive";
+"widget.install.drag-here.body" = "可以拖动组件文件到这个弹窗或点击'选择'按钮来选择组件文件";
+"widget.install.drag-here.valid-formats" = "组件文件格式为: .pock, .pkarchive";
 
-"widget.remove.title" = "Remove %@ widget";
-"widget.remove.body" = "Would you like to proceed and remove %@ widget?";
-"widget.remove.click-to-continue" = "Click \"Remove\" to continue…";
+"widget.remove.title" = "移除 %@ 组件";
+"widget.remove.body" = "确定要继续并移除 %@ 组件吗?";
+"widget.remove.click-to-continue" = "点击'移除'按钮继续…";
 
-"widget.install.title" = "Install %@ widget";
-"widget.install.body" = "Would you like to proceed and install %@ widget?";
-"widget.install.click-to-continue" = "Click \"Install\" to continue…";
+"widget.install.title" = "安装 %@ 组件";
+"widget.install.body" = "确定要继续并安装 %@ 组件吗?";
+"widget.install.click-to-continue" = "点击'安装'按钮继续…";
 
-"widget.update.title" = "New version available for %@ widget!";
-"widget.update.body" = "Would you like to upgrade from version %@ to the new version %@?";
-"widget.update.changelog.title" = "Changelog:";
+"widget.update.title" = "%@ 组件有新版本!";
+"widget.update.body" = "要从 %@ 更新到 %@ 吗?";
+"widget.update.changelog.title" = "更新日志:";
 
-"widget.removing.title" = "Removing %@ widget…";
-"widget.removing.body" = "This process can take some time…";
+"widget.removing.title" = "正在移除 %@ 组件…";
+"widget.removing.body" = "这个过程可能需要一些时间…";
 
-"widget.installing.title" = "Installing %@ widget…";
-"widget.installing.body" = "This process can take some time…";
+"widget.installing.title" = "正在安装 %@ 组件…";
+"widget.installing.body" = "这个过程可能需要一些时间…";
 
-"widget.downloading.title" = "Downloading %@ widget…";
-"widget.downloading.body" = "This process can take some time…\n\nCalculating estimated progress:";
+"widget.downloading.title" = "正在下载 %@ 组件…";
+"widget.downloading.body" = "T这个过程可能需要一些时间…\n\n估计进度:";
 
-"widget.remove.error.title" = "Widget removing has failed!";
-"widget.install.error.title" = "Widget installation has failed!";
+"widget.remove.error.title" = "组件移除失败!";
+"widget.install.error.title" = "组件安装失败!";
 
 "widget.error.title" = "Something went wrong…";
 "widget.error.body" = "An error occured during the process.\n\n%@";
 
-"widget.remove.success.title" = "Widget successfully removed!";
-"widget.remove.success.body" = "Great, %@ widget was completely removed.\nClick on `Relaunch` to relaunch Pock.";
+"widget.remove.success.title" = "组件移除成功!";
+"widget.remove.success.body" = "%@ 组件已经成功移除.\n点击 `重新启动` 来重新启动 Pock";
 
-"widget.install.success.title" = "What a success!";
+"widget.install.success.title" = "安装成功!";
 "widget.install.success.body" = "Congratulations, %@ widget is now ready to be added to the Touch Bar.\nReload Pock and then click on `Customize Pock…` option to personalize your widgets experience.";
 
-"widget.update.success.title" = "Done!";
+"widget.update.success.title" = "完成!";
 "widget.update.success.body" = "Congratulations, %@ widget is now updated to the latest version.\nClick on `Relaunch` to relaunch Pock.";
 
 // MARK: Actions
@@ -186,7 +186,7 @@ You can always configure default settings from `System Preferences > Keyboard` t
 "error.file-system-error" = "Can't manage file: %@\n\nPlease, check app permission and try again.";
 
 // MARK: Debug console
-"debug.console.floating-window" = "Floating window";
+"debug.console.floating-window" = "悬浮窗口";
 "debug.console.show-on-launch" = "启动时显示";
 "debug.console.scroll-automatically" = "自动滚动";
 "debug.console.clear-console" = "清空控制台";
